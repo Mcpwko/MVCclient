@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\MyTHeX-Corporation\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\MyTHeX-Corporation\\.nuget\\packages",
+      "C:\\Users\\Maintenant Pret\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Maintenant Pret\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }

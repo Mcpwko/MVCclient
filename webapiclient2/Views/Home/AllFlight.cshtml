@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<webapiclient2.Models.FlightSet>
 
 @{
-    ViewData["Title"] = "All available flights";
+    ViewData["Title"] = "AllFlight";
 }
 
-<h1>All available flights</h1>
+<h1>All Flight</h1>
 
 <table class="table">
     <thead>
@@ -20,6 +20,12 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Seats)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PilotId)
             </th>
             <th></th>
         </tr>
@@ -40,11 +46,12 @@
                 @Html.DisplayFor(modelItem => item.Date)
             </td>
             <td>
-                @Html.ActionLink("Buy a ticket", "BuyTicket", "Buy",  new { id=item.FlightNo}, null)
+                @Html.DisplayFor(modelItem => item.Seats)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PilotId)
             </td>
         </tr>
 }
     </tbody>
 </table>
-
-@Html.ActionLink("See all flights", "AllFlight", "Home")

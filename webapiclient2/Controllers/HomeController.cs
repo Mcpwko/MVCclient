@@ -26,13 +26,25 @@ namespace webapiclient2.Controllers
 
         public async Task<IActionResult> IndexAsync()
         {
-            var data = await ApiClientFactory.Instance.GetTodoItems();
+            var data = await ApiClientFactory.Instance.GetAvailableFlightSetItems();
             return View(data);
         }
 
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public async Task<IActionResult> AllFlight()
+        {
+            var data = await ApiClientFactory.Instance.GetFlightSetItems();
+            return View(data);
+        }
+
+        public async Task<IActionResult> AllBooking()
+        {
+            var data = await ApiClientFactory.Instance.GetBookings();
+            return View(data);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyTHeX-Corporation\\Desktop\\PROJETPattern\\webapiclient2\\webapiclient2\\MVCclient.csproj": {}
+    "C:\\Users\\Maintenant Pret\\source\\repos\\MVCclient\\webapiclient2\\MVCclient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyTHeX-Corporation\\Desktop\\PROJETPattern\\webapiclient2\\webapiclient2\\MVCclient.csproj": {
+    "C:\\Users\\Maintenant Pret\\source\\repos\\MVCclient\\webapiclient2\\MVCclient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyTHeX-Corporation\\Desktop\\PROJETPattern\\webapiclient2\\webapiclient2\\MVCclient.csproj",
+        "projectUniqueName": "C:\\Users\\Maintenant Pret\\source\\repos\\MVCclient\\webapiclient2\\MVCclient.csproj",
         "projectName": "MVCclient",
-        "projectPath": "C:\\Users\\MyTHeX-Corporation\\Desktop\\PROJETPattern\\webapiclient2\\webapiclient2\\MVCclient.csproj",
-        "packagesPath": "C:\\Users\\MyTHeX-Corporation\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyTHeX-Corporation\\Desktop\\PROJETPattern\\webapiclient2\\webapiclient2\\obj\\",
+        "projectPath": "C:\\Users\\Maintenant Pret\\source\\repos\\MVCclient\\webapiclient2\\MVCclient.csproj",
+        "packagesPath": "C:\\Users\\Maintenant Pret\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maintenant Pret\\source\\repos\\MVCclient\\webapiclient2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MyTHeX-Corporation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maintenant Pret\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
